@@ -6,7 +6,7 @@
  * @second: Pointer2
  * Return: Pointer to ancestor
  */
-binary_tree_t *binary_treeanc2estor(const binary_tree_t *first,
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 					const binary_tree_t *second)
 {
 	const binary_tree_t *anc1, *anc2;
