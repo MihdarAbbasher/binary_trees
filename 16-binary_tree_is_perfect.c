@@ -28,8 +28,8 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 	if (!tree->left && !tree->right)
 		return (1);
-	h_left = binary_tree_height(tree->left);
-	h_right = binary_tree_height(tree->right);
+	h_left = find_depth(tree->left);
+	h_right = find_depth(tree->right);
 
 	if ((h_left - h_right) == 0)
 		return (1);
