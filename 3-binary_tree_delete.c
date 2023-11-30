@@ -1,6 +1,7 @@
 #include "binary_trees.h"
 
-/** binary_tree_delete - del BT
+/**
+ * binary_tree_delete - del BT
  * @tree: root pointer
  * Return: void
  */
