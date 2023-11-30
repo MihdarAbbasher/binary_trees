@@ -1,7 +1,9 @@
 #include "binary_trees.h"
 
-/** binary_tree_preorder - del BT
+/**
+ * binary_tree_preorder - del BT
  * @tree: root pointer
+ * @func: function ptr
  * Return: void
  */
 
